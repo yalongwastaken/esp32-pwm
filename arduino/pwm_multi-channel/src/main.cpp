@@ -1,5 +1,7 @@
 // Author: Anthony Yalong
-// Description: Change RGB LED to a random color every 1 second
+// Description: Controls an RGB LED using ESP32 hardware PWM (LEDC).
+//              Generates a new random color every 1 second using esp_random(),
+//              with configurable timing and resolution constants.
 
 #include <Arduino.h>
 #include <driver/ledc.h>
